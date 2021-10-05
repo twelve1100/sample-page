@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 10px;
+}
+
+.post-title {
+  font-family: "Snell Roundhand";
+  font-weight: normal;
+  font-size: 60px;
+  text-align: center;
+}
+
+.post-content{
+  margin : 1px;
+  padding: 8px;
+  
+  
+}
+.first-three-posts{
+    color: black;
+    border-bottom: 1px solid black;
+  border-left: 1px solid black;
+    
+    display : flex;
+   flex-direction : row;
+   align-items: strech;
+   overflow-wrap: break-word;
+}  
+
+.first-post {
+ 
+  text-align : center;
+  text-transform: capitalize;
+  width : 25%;
+  
+  border: 1px solid black;
+  border-top-color :  green ;
+
+  
+}
+
+.second-post{
+    
+  text-align : center;
+  text-transform: capitalize;
+  width : 50%;
+ 
+ 
+  border: 1px solid black;
+  border-top-color :  green ;
+  
+
+}
+
+.third-post{
+    
+  text-align : center;
+  text-transform: capitalize;
+  width : 25%;
+ 
+  border: 1px solid black;
+  border-top-color :  green ;
+
+}
+.r-m-p{
+    text-align: justify-all;
+    overflow-wrap: break-word;
+    border-bottom: 1px solid black;
+    border-left: 1px black;
+    display : flex;
+   flex-direction : row;
+   
+}
+
+
+.fourth-post{
+    
+  text-align : center;
+  text-transform: capitalize;
+  width : 25%;
+
+  border-right: 1px solid black;
+  border-left-color :  green ;
+  border-left: 1px solid black;
+
+  
+}
+.post-al{
+   
+  color: black;
+  text-decoration: none;
+  font-size: 10px;
+  width: 100%;
+  font-weight: bold;
+  font-family: "Futura";
+  color: #666;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.politics{
+ background-color: #55efc4;
+
+
+}
+.politics:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.news{
+   background-color: #ffeaa7;
+}
+.news:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.a1{
+
+background-color: #74b9ff;
+}
+.a1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.a2{
+ background-color: #81ecec;
+
+
+}
+.a2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.a3{
+ background-color: #55efc4;
+}
+.a3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
